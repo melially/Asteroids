@@ -1,11 +1,10 @@
-# this allows us to use code from
-# the open-source pygame library
-# throughout this file
-import pygame
+import pygame # this allows us to use code from the open-source pygame library throughout this file
+from constants import *
 
-main()
-print("Starting Asteroids!")
+def main():
+    print("Starting Asteroids!")
+    print("Screen width: 1280")
+    print("Screen height: 720")
 
 if __name__ == "__main__":
     main()
-
